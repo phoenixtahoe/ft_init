@@ -1,0 +1,2 @@
+To enable etc/sysctl.conf
+Then use iptables -t nat -A OUTPUT -d 48.19.122.85 -j DNAT --to-destination intra.42.fr.
